@@ -1,3 +1,26 @@
+Metadata-Version: 2.1
+Name: django-recyclebin
+Version: 0.2
+Summary: A Django app to make recyclebin.
+Home-page: https://github.com/abraffay/django-recyclebin
+Author: Abdul Raffay
+Author-email: abdulraffahmehtab@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/abraffay/django-recyclebin/issues
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 =====
 Django Recyclebin
 =====
@@ -5,13 +28,8 @@ Django Recyclebin
 Django Recyclebin is a Django app to create recyclebin functionality in your project. you will be able to temporarily delete, restore and permanently delete data.
 
 
-Pypi link: https://pypi.org/project/django-recyclebin/0.2/
-
 Quick start
 -----------
-
-
-Install package using pip install django-recyclebin==0.2 
 
 1. Add "recyclebin" to your INSTALLED_APPS setting like this::
 
@@ -50,3 +68,4 @@ Install package using pip install django-recyclebin==0.2
 9. How to permanently delete
     pass permanent_delete function model name and id. model name must be string and id an integer
     ``permanent_delete(model1, 1)``
+
